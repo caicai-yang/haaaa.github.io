@@ -13,13 +13,13 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: '6.26.1'
+          version: '8.15.1'
       - name: Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: '16.13.2'
+          node-version: '20.11.0'
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
       - name: build
         run: pnpm build
 

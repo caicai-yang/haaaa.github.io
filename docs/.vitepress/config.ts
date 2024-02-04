@@ -33,12 +33,12 @@ const enComponentDocs = componentDocs.map((item) => ({
   link: '/en-US/components/' + item.link,
 }))
 
-const REPO_BASE_URL = '/vue-components-lib-seed/'
+const REPO_BASE_URL = '/haaaa.github.io/'
 
 export default defineConfig({
   base: process.env.VERCEL_BUILD ? '/' : REPO_BASE_URL,
   title: 'VueCompsLibSeed',
-  description: 'vue-components-lib-seed doc',
+  description: 'haaaa.github.io doc',
   head: [
     [
       'link',
