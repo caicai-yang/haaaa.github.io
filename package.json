@@ -40,6 +40,7 @@
     }
   },
   "devDependencies": {
+    "@arco-design/web-vue": "^2.54.4",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@babel/preset-env": "^7.14.1",
     "@babel/preset-typescript": "^7.13.0",
@@ -123,6 +124,8 @@
     "vue-tsc": "^0.0.24"
   },
   "dependencies": {
-    "@unocss/reset": "^0.35.2"
+    "@unocss/reset": "^0.35.2",
+    "axios": "^1.6.7",
+    "qs": "^6.11.2"
   }
 }

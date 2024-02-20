@@ -123,7 +123,7 @@ export default defineConfig({
           ],
         },
         {
-          text: '组件',
+          text: '代码存档',
           items: zhComponentDocs,
         },
       ],
