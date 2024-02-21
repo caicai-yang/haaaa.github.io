@@ -6,7 +6,7 @@ export default {
 </script>
 
 <script lang="ts" setup>
-import { request } from '../index.ts'
+import { request } from '../source.ts'
 const service = request({
   baseURL: 'https://mock.apifox.com/m1/2418902-0-default',
 })

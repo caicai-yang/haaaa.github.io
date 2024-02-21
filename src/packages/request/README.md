@@ -5,12 +5,12 @@
 3. 默认post, put在上一次请求未完成时, 取消下一次相同请求
 
 ## 源代码
-<<< @/../src/packages/utils/serializer.ts
-<<< @/../src/packages/utils/request/index.ts
+<<< src/packages/request/serializer.ts
+<<< src/packages/request/source.ts
 
 
 ## 案例
 
 :::demo  
-src/packages/utils/request/demo/demo0.vue  
+src/packages/request/demo/demo0.vue  
 :::

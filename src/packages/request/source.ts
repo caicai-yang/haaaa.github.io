@@ -1,6 +1,6 @@
 import axios, { AxiosRequestConfig } from 'axios'
 import qs from 'qs'
-import { serializer } from '../serializer'
+import { serializer } from './serializer'
 
 /**
  * 基于 axios 二次封装的请求库
