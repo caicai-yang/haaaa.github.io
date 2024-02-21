@@ -1,1 +1,0 @@
-import{b as e}from"./index.861c97d0.js";import{f as t,o,g as _,u as r}from"../app.40077edb.js";const a={name:"ButtonDemo",title:"\u57FA\u672C"},n=t({...a,setup(u){return(l,c)=>(o(),_(r(e)))}});var p=Object.freeze(Object.defineProperty({__proto__:null,default:n},Symbol.toStringTag,{value:"Module"}));export{p as _};

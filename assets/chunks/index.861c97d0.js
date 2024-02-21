@@ -1,1 +1,0 @@
-import{f as p,o as c,c as s}from"../app.40077edb.js";var u=(t,n)=>{const a=t.__vccOpts||t;for(const[o,r]of n)a[o]=r;return a},l=p({name:"Button",props:{type:{type:String,default:"default"}},setup(){}}),_={class:"default"};function f(t,n,a,o,r,d){return c(),s("button",_,"click")}var e=u(l,[["render",f]]);e.install=t=>{t.component(e.name,e)};var m=e;export{m as b};
