@@ -37,7 +37,7 @@ const REPO_BASE_URL = '/haaaa.github.io/'
 
 export default defineConfig({
   base: process.env.VERCEL_BUILD ? '/' : REPO_BASE_URL,
-  title: 'VueCompsLibSeed',
+  title: 'Haaaaa',
   description: 'haaaa.github.io doc',
   head: [
     [
