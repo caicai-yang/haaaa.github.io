@@ -1,4 +1,7 @@
 <template>
-  <h3>Home Page</h3>
-  <img alt="Vue logo" src="../assets/logo.png" />
+  <PageTransitionDemo />
 </template>
+
+<script setup lang="ts" name="index">
+import PageTransitionDemo from '../packages/pageTransition/demo.vue'
+</script>

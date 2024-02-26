@@ -7,10 +7,15 @@ import routes from 'virtual:generated-pages'
 import App from './App.vue'
 import ArcoVue from '@arco-design/web-vue'
 import '@arco-design/web-vue/dist/arco.css'
+import ArcoIcon from '@arco-design/web-vue/es/icon'
 
 const router = createRouter({
   history: createWebHashHistory(),
   routes,
 })
 
-createApp(App).use(ArcoVue).use(router).mount('#app')
+const app = createApp(App)
+  .use(ArcoVue)
+  .use(ArcoIcon)
+  .use(router)
+  .mount('#app')

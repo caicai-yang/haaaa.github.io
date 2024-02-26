@@ -32,7 +32,7 @@ function handleRequest() {
       }
     )
     .then((res: any) => {
-      console.log('res', res)
+      alert('请求成功')
     })
 }
 </script>

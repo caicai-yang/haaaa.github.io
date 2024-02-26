@@ -32,9 +32,9 @@ const componentEntrys = klawSync(PACKAGES_PATH, {
   .map((dir) =>
     /^win/.test(process.platform)
       ? path
-        .join(dir.path, '/index.ts')
-        .split(path.sep)
-        .join(path.posix.sep)
+          .join(dir.path, '/index.ts')
+          .split(path.sep)
+          .join(path.posix.sep)
       : path.join(dir.path, '/index.ts')
   )
 

@@ -4,13 +4,14 @@
 2. 默认post, put在1s内不能连续发送相同请求, 实现全局防抖
 3. 默认post, put在上一次请求未完成时, 取消下一次相同请求
 
-## 源代码
-<<< src/packages/request/serializer.ts
-<<< src/packages/request/source.ts
-
 
 ## 案例
 
 :::demo  
 src/packages/request/demo/demo0.vue  
 :::
+
+
+## 源代码
+<<< src/packages/request/serializer.ts
+<<< src/packages/request/source.ts
