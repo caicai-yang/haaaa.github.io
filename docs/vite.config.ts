@@ -1,6 +1,7 @@
 import path from 'path'
 import Unocss from 'unocss/vite'
 import { MarkdownTransform } from './.vitepress/plugins/md-transform'
+import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 
 export default {
@@ -12,5 +13,5 @@ export default {
       )}/`,
     },
   },
-  plugins: [vueJsx(), MarkdownTransform(), Unocss()],
+  plugins: [vue(), vueJsx(), MarkdownTransform(), Unocss()],
 }

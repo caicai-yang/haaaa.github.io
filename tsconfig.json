@@ -29,7 +29,7 @@
     "src/**/*.vue",
     "docs/.vitepress/**/*.ts",
     "docs/.vitepress/**/*.vue"
-  ],
+, "docs/.vitepress/config.mts"  ],
   "exclude": [
     "node_modules",
   ]
